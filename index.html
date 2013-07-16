@@ -1,0 +1,66 @@
+<html>
+<head>
+  <script src="jquery-1.9.1.js"></script>
+  <script src="jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="keyboards.js"></script>
+  <script src="stretching.js"></script>
+  <script src="fart.js"></script>
+  <style>
+body {
+  text-align: center;
+}
+
+#content {
+  margin: 0px;
+  padding: 0px;
+}
+
+#message {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#title {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 3em;
+}
+
+#report {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#letter {
+  font-size: 5em;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  width: 150px;
+  background-color: #00AEEF;
+  border: 1px solid;
+  border-radius:50%;
+  position: absolute;
+  top:6em;
+  left:50%;
+  margin-left:-75px;
+  margin-top:-75px;
+}
+
+.error {
+  background-color: red !important;
+}
+  </style>
+</head>
+<body>
+  <div id="content">
+    <div id="title">Welcome!</div>
+    <div id="message"></div>
+    <div id="letter"></div>
+    <div id="report"></div>
+    <object  type="image/svg+xml" alt="keyboard" id="keyboard" />
+  </div>
+</body>
+</html>
